@@ -1,3 +1,11 @@
+/**
+* Componente que cuida da interafce serial. Permite a associacao de novos
+* comandos, sendo uma interface mais bem isolada do que a interface web.
+* Nao esta sendo utilizado para comandar o sistema, mas mantive aqui porque e
+* uma implementacao possivel util no futuro
+*/
+
+
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "esp_log.h"

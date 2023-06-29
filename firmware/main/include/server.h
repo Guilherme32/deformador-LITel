@@ -1,3 +1,8 @@
+/**
+* Componente que gerencia o servidor http
+*/
+
+
 #include <stdio.h>
 #include <string.h>
 #include "esp_http_server.h"

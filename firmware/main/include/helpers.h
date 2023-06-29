@@ -1,3 +1,8 @@
+/**
+* Componente com algumas funcoes que podem ser util em mais de um componente
+*/
+
+
 #include "esp_system.h"
 #include <string.h>
 

@@ -84,7 +84,7 @@ static bool help(char* message)
     printf("from a web browser if you are connected to a same local network, such\n");
     printf("as the ESP's Soft-AP\n\n");
     printf("For more info, please refer to the main gitHub repo:\n");
-    printf("   > https://github.com/Guilherme32/controle-forno-LITel\n");
+    printf("   > https://github.com/Guilherme32/deformador-LITel\n");
 
     return true;
 }
@@ -113,9 +113,9 @@ void add_command(bool (*new_command)(char*), void(*command_help)(char))
 void print_header()
 {
     printf("--------------------------------------------------------------\n");
-    printf("| LITel oven control system v2.0                             |\n");
+    printf("| LITel deformator system v1.0                               |\n");
     printf("| Source code and full manual on the GitHub repo:            |\n");
-    printf("| https://github.com/Guilherme32/controle-forno-LITel        |\n");
+    printf("| https://github.com/Guilherme32/deformador-LITel            |\n");
     printf("| For a quick check on the commands available, type !help    |\n");
     printf("--------------------------------------------------------------\n");
 }
@@ -136,7 +136,7 @@ void serial_comm_task()
             printf("\n");
         }
         uart_write_bytes(UART_NUM_0, &in_char, 1);      // Echo to make it easier to interface
-                                            // print doesn't seem to senf without the line break
+                                            // print doesn't seem to send without the line break
 
         if (in_char == PREFIX) {                // Reset when finds the prefix
             message[0] = '\0';

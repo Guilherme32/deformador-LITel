@@ -1,3 +1,11 @@
+/**
+* Componente que faz a conexao com uma rede wifi externa, e gerencia o ponto de
+* acesso do proprio esp. Tambem permite a atualizacao de credenciais para a
+* rede externa. Para alterar as credenciais do ponto de acesso, deve-se fazer
+* isso pelas definicoes e recompilar o codigo
+*/
+
+
 #include <string.h>
 #include "esp_wifi.h"
 #include "esp_event.h"
