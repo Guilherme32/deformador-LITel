@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\espstuff\8266\msys32\home\guilh\esp8266\deforminator\circuit\deforminator\deforminator.kicad_sch</source>
+    <date>14/06/2023 17:54:08</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>deforminator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Pololu_Breakout_DRV8825</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2982</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_DRV8825" description="Pololu Breakout Board, Stepper Driver DRV8825"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15d39b00-b6ff-4efb-9206-a5d5aa4874ad</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5586e92f-4e78-495f-9a81-566164ca1ab0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9877c6cd-62b4-42ee-a0f1-541651c2e113</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b38776b-fb0e-4bbe-894a-0732cce2aacb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9b83fbd-bade-43ef-b7c5-247d0ef86045</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e07745f-bcc7-4449-a3d7-e3c42d342965</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcb93dc2-0aed-4da0-9372-96fd02ea8ff8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeed0e5c-3ae0-4892-99ab-4e6f2ec773ff</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73e409ef-75f9-411d-a1a4-19e7a8fc3f9d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f8de24c-3ffe-4795-bf6a-4c2c013684c1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1c4c67f-69ae-46a8-9666-f0008f908463</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2cd8af9-2820-4110-8abc-a936e9b87d68</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b65f1ec6-6c76-4337-a4dd-d8ddfe730b78</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>054bf8c3-a6c8-4500-9e7e-fb73d26f2bcf</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32b02bd0-eff9-4dab-b1d8-62301cb922e1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>485d1830-bebe-4f14-975f-9127510f558c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0d693e8-2507-4b0f-a82b-eb13345420d9</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a92b966-57f1-4f4a-82b6-b10f5f7e94c2</tstamps>
+    </comp>
+    <comp ref="SWreset1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ad0448b-ace8-4152-b716-6167614df9c1</tstamps>
+    </comp>
+    <comp ref="SWreset2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e5dbb2c-8c22-48e4-8b29-c17f1848ce9d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-12E</value>
+      <footprint>RF_Module:ESP-12E</footprint>
+      <datasheet>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</datasheet>
+      <libsource lib="RF_Module" part="ESP-12E" description="802.11 b/g/n Wi-Fi Module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="deforminator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddac2b26-b75b-44fa-b6af-e8e54dcacb09</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="Pololu_Breakout_DRV8825">
+      <description>Pololu Breakout Board, Stepper Driver DRV8825</description>
+      <docs>https://www.pololu.com/product/2982</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Pololu_Breakout_DRV8825</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2982</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="~{FLT}" type="output"/>
+        <pin num="3" name="A2" type="output"/>
+        <pin num="4" name="A1" type="output"/>
+        <pin num="5" name="B1" type="output"/>
+        <pin num="6" name="B2" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{EN}" type="input"/>
+        <pin num="10" name="M0" type="input"/>
+        <pin num="11" name="M1" type="input"/>
+        <pin num="12" name="M2" type="input"/>
+        <pin num="13" name="~{RST}" type="input"/>
+        <pin num="14" name="~{SLP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP-12E">
+      <description>802.11 b/g/n Wi-Fi Module</description>
+      <docs>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</docs>
+      <footprints>
+        <fp>ESP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12E</field>
+        <field name="Footprint">RF_Module:ESP-12E</field>
+        <field name="Datasheet">http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="input"/>
+        <pin num="2" name="ADC" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO16" type="bidirectional"/>
+        <pin num="5" name="GPIO14" type="bidirectional"/>
+        <pin num="6" name="GPIO12" type="bidirectional"/>
+        <pin num="7" name="GPIO13" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="CS0" type="input"/>
+        <pin num="10" name="MISO" type="bidirectional"/>
+        <pin num="11" name="GPIO9" type="bidirectional"/>
+        <pin num="12" name="GPIO10" type="bidirectional"/>
+        <pin num="13" name="MOSI" type="bidirectional"/>
+        <pin num="14" name="SCLK" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO15" type="bidirectional"/>
+        <pin num="17" name="GPIO2" type="bidirectional"/>
+        <pin num="18" name="GPIO0" type="bidirectional"/>
+        <pin num="19" name="GPIO4" type="bidirectional"/>
+        <pin num="20" name="GPIO5" type="bidirectional"/>
+        <pin num="21" name="GPIO3/RXD" type="bidirectional"/>
+        <pin num="22" name="GPIO1/TXD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Programs\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Programs\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>D:\Programs\KiCad\6.0\share\kicad\symbols\/Driver_Motor.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>D:\Programs\KiCad\6.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\Programs\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Direction">
+      <node ref="A1" pin="16" pinfunction="DIR" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="Done Moving">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="End Switch">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="A1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SWreset1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SWreset2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="Gnd Motor">
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="A2" pintype="output"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="A1" pintype="output"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="B1" pintype="output"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(A1-Pad6)">
+      <node ref="A1" pin="6" pinfunction="B2" pintype="output"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SWreset1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SWreset2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Rx">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GPIO3/RXD" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Step">
+      <node ref="A1" pin="15" pinfunction="STEP" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Tx">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GPIO1/TXD" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="V Motor">
+      <node ref="A1" pin="8" pinfunction="VMOT" pintype="power_in"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="Vdd">
+      <node ref="A1" pin="10" pinfunction="M0" pintype="input"/>
+      <node ref="A1" pin="11" pinfunction="M1" pintype="input"/>
+      <node ref="A1" pin="12" pinfunction="M2" pintype="input"/>
+      <node ref="A1" pin="13" pinfunction="~{RST}" pintype="input"/>
+      <node ref="A1" pin="14" pinfunction="~{SLP}" pintype="input"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Wifi Status">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="~{FLT}" pintype="output"/>
+    </net>
+    <net code="23" name="unconnected-(A1-Pad9)">
+      <node ref="A1" pin="9" pinfunction="~{EN}" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="ADC" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="29" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="CS0" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="SCLK" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

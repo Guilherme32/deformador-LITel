@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Deformador LITel - Controle</title>
+    <link rel="icon" type="image/svg" href="fire_icon.svg">
+</head>
+<body>
+    <h1>Controle</h1>
+    <hr/>
+    <div class="container">
+        <form id="operation_info" class="">
+            <p class="bold">Comandos: </p>
+
+            <div id="deformation_div">
+                <p/>
+                <label><p class="bold">Deformação: </p></label>
+                <input type="number" min="-400000" max="400000" value="0"/>
+                <span>μm</span>
+            </div>
+
+            <button type="submit" class="button right">Enviar</button>
+
+            <button type="button" class="button" onclick="reset_zero()">Resetar 0</button>
+        </form>
+
+        <div>
+            <p class="bold center">Deformação: <span id="deformation">XXX μm</span></p>
+            <div id="deformation_bar_edge">
+                <div id="deformation_bar"></div>
+            </div>
+            <p class="bold center" id="moving">Movendo</p>
+            <p class="center">
+                <span class="bold">Passo: </span>
+                <span id="step">130</span>
+            </p>
+        </div>
+
+        <div>
+            <a class="button" href="index.html">Página inicial</a>
+            <a class="button" href="connection.html">Conexão</a>
+            <a class="button" href="https://github.com/Guilherme32/controle-forno-LITel">Github</a>
+        </div>
+    </div>
+</body>
+
+<script src="control.js" type="application/javascript"></script>
+</html>
