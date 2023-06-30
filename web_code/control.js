@@ -15,9 +15,8 @@ function deformation_to_step(deformation) {
     return Math.round(deformation * 200 * 32 / 2000);
 }
 
+// Envia a deformação alvo
 function submit_deformation(){
-    // Envia a deformação alvo
-
     const deformation = parseFloat(
         document.querySelector("#deformation_div input").value
     );
@@ -52,9 +51,8 @@ function submit_deformation(){
 var last_step_start = 0;
 var last_target = 0;
 
+// Adquire algumas informacoes do servidor para atualizar a interface
 function update_interface() {
-    // Adquire algumas informacoes do servidor para atualizar a interface
-
     const request = new Request("api/controller_info", {
         method: "get"
     });
@@ -94,6 +92,7 @@ function update_interface() {
     })
 }
 
+// Envia o comando para procurar o zero
 function reset_zero() {
     const request = new Request("/api/reset_zero", {
         method: "POST"
